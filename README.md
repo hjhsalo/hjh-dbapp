@@ -6,6 +6,11 @@ database in context of a school programming assignment.
 Maven is used for dependency management and for
 packaging the application as a single jar file.
 
+## Install
+
+* Check releases page:  
+  https://github.com/hjhsalo/hjh-dbapp/releases
+
 ## To build
 
 Clone this repository or obtain the source code via
@@ -21,7 +26,7 @@ some other means and at the repository root:
 
 ## To run
 
-* Run the application with  
+* Build the application and run with  
   `java -jar ./hjh-dbapp/target/hjh-dbapp-1.0-20200613-jar-with-dependencies.jar`
 
 ```
@@ -55,13 +60,13 @@ Commands:
 
 ## Troubleshooting
 
-* Make sure you can physically connect to the database, or change the connection URL to something else.
+* Make sure you can physically connect to the database, or change the connection URL to something else you can access.
 * Default username and password are provided. Change them as needed.
 * Increase verbosity to see stack traces of SQL and connection related errors.
 
 ## Attributions
 
-* Implementation would not be possible without Picocli:  
+* Implementation would not have been possible without Picocli:  
   https://picocli.info/
 
 * Database connection code is heavily influenced by Oracle provided examples:  
